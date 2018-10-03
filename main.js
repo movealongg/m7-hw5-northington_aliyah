@@ -9,3 +9,7 @@ pageBody.insertBefore(main,scriptTag)
 var header = document.createElement('h1');
 
 main.appendChild(header);
+
+var list = document.createElement('ul');
+
+main.appendChild(list);
