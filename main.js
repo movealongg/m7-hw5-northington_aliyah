@@ -13,3 +13,7 @@ main.appendChild(header);
 var list = document.createElement('ul');
 
 main.appendChild(list);
+
+var listItem = document.createElement('li');
+
+list.appendChild(listItem);
