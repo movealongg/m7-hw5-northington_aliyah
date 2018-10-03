@@ -6,3 +6,6 @@ var scriptTag = document.getElementsByTagName('script')[0]
 
 pageBody.insertBefore(main,scriptTag)
 
+var header = document.createElement('h1');
+
+main.appendChild(header);
