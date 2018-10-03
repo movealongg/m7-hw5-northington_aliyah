@@ -39,4 +39,4 @@ list.appendChild(linkListItem);
 
 var linkText = document.createTextNode('This is my link');
 
-
+link.appendChild(linkText);
