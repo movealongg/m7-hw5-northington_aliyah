@@ -18,7 +18,7 @@ var listItem = document.createElement('li');
 
 list.appendChild(listItem);
 
-var headerText = document.createTextNote('This is the header text!');
+var headerText = document.createTextNode('This is the header text!');
 
 var listItemText = document.createTextNode('This is the list item');
 
@@ -36,3 +36,7 @@ var linkListItem = document.createElement('li');
 linkListItem.appendChild(link);
 
 list.appendChild(linkListItem);
+
+var linkText = document.createTextNode('This is my link');
+
+
